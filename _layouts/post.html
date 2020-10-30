@@ -12,6 +12,9 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
+  \{\% include advertising.html \%\}
 
-  {% include disqus.html %}
+
+   {% include disqus.html %}
+   {% include advertising.html %}
 </article>
